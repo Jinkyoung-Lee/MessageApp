@@ -7,7 +7,7 @@ if (message) {
     document.querySelector('#message-form').classList.add('hide');
     document.querySelector('#message-show').classList.remove('hide');
     // Put the message inside the h3 element
-    document.querySelector('h3').innerHTML = message;
+    document.querySelector('h6').innerHTML = message;
 };
 
 // Submit event listener
